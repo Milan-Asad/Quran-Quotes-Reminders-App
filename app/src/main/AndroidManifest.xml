@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.QuranQuotes.quranquotes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuranQuotes">
+        <activity
+            android:name=".WealthQuotes"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".WordlyMattersSelectionPage"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".HereafterSelectionPage"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".MarriageQuotes"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".HardshipQuotes"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".DunyaQuotes"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".ZakatQuotes"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".QuranQuotesSelectionPage"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".SalahQuotes"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".JahannamQuotes"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".JannahQuotesPage"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".SelectionPage"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"> <!-- TURNS ACTION BAR OFF -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
