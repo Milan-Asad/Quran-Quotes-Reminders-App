@@ -16,6 +16,9 @@ public class WordlyMattersSelectionPage extends AppCompatActivity {
     Button HardshipBtn;
     Button MarriageBtn;
     Button WealthBtn;
+    Button DisbelieverBtn;
+    Button DeathBtn;
+    Button SecretLettersBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,6 +76,30 @@ public class WordlyMattersSelectionPage extends AppCompatActivity {
             }
         });
 
+        DisbelieverBtn = (Button) findViewById(R.id.disbelieverBtn);
+        DisbelieverBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openDisvelieversQuotePage();
+            }
+        });
+
+        DeathBtn = (Button) findViewById(R.id.deathBtn);
+        DeathBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openDeathQuotesPage();
+            }
+        });
+
+        SecretLettersBtn = (Button) findViewById(R.id.secretlettersBtn);
+        SecretLettersBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openSecretLetterQuotePage();
+            }
+        });
+
     }
 
 
@@ -103,6 +130,21 @@ public class WordlyMattersSelectionPage extends AppCompatActivity {
 
     private void openWealthQuotePage() {
         Intent intent = new Intent (this, WealthQuotes.class);
+        startActivity(intent);
+    }
+
+    private void openDisvelieversQuotePage() {
+        Intent intent = new Intent(this, DisbelieverQuotes.class);
+        startActivity(intent);
+    }
+
+    private void openDeathQuotesPage() {
+        Intent intent = new Intent(this, DeathQuotes.class);
+        startActivity(intent);
+    }
+
+    private void openSecretLetterQuotePage() {
+        Intent intent = new Intent(this, SecretLetterQuotes.class);
         startActivity(intent);
     }
 

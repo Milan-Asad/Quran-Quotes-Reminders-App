@@ -12,7 +12,7 @@ import android.widget.Toast;
 public class SelectionPage extends AppCompatActivity {
 
     Button QuranSelectionPageBtn;
-    Button HadithBtn;
+    Button testBtn;
 
 
     @Override
@@ -29,16 +29,18 @@ public class SelectionPage extends AppCompatActivity {
             }
         });
 
-//        HadithBtn = (Button) findViewById(R.id.HadithSelectionBtn);
-//        HadithBtn.setOnClickListener(new View.OnClickListener() {
+//        testBtn = (Button) findViewById(R.id.testbtn);
+//        testBtn.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-//                Toast.makeText(SelectionPage.this, "COMING SOON IN NEXT UPDATE", Toast.LENGTH_SHORT).show();
+//                openTestPage();
 //            }
 //        });
 
+
+
         // DISABLES DARK MODE FOR APP (NO BLACK BOXES)
-        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        //AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 
     }
 
@@ -47,4 +49,8 @@ public class SelectionPage extends AppCompatActivity {
         startActivity(intent);
     }
 
+    private void openTestPage() {
+        Intent intent = new Intent(this, TestActivity.class);
+        startActivity(intent);
+    }
 }

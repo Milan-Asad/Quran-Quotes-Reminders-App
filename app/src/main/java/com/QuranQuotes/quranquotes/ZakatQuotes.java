@@ -39,7 +39,7 @@ public class ZakatQuotes extends AppCompatActivity {
             "Kind words and the covering of faults are better than charity followed by injury. Allah is free of all wants, and he is most-forbearing (2:263)",
             "Yet you shall duly establish the Prayer. And you shall give the zakat, and therewith lend God a most goodly loan. For whatever good you advance for your souls, you shall find its reward with God in the hereafter; yet it shall be far better and much greater in reward (73:20)",
             "Then steadfastly continue to duly establish the Prayer, and give the zakat (58:13)",
-            "Those who do not pay zakat and are in denial of the Hereafter (41:7)",
+            "Those who do not pay zakat and are in denial of the hereafter (41:7)",
             "Take from their wealth a ‘charitable offering’ to cleanse them and purify them thereby (9:60)",
             // 20 BELOW
             "He has made me a blessing wherever I go, and bid me to establish prayer and give zakat as long as I live (19:31)",

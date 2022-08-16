@@ -10,24 +10,53 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuranQuotes">
         <activity
+            android:name=".SecretLetterQuotes"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".DeathQuotes"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".SettingsPage2"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".SettingsPage"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".DisbelieverQuotes"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
+            android:name=".TestActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
+        <activity
             android:name=".WealthQuotes"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
         <activity
             android:name=".WordlyMattersSelectionPage"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
         <activity
             android:name=".HereafterSelectionPage"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
         <activity
             android:name=".MarriageQuotes"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
         <activity
             android:name=".HardshipQuotes"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
         <activity
             android:name=".DunyaQuotes"
@@ -36,31 +65,39 @@
         <activity
             android:name=".ZakatQuotes"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
         <activity
             android:name=".QuranQuotesSelectionPage"
             android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
         <activity
             android:name=".SalahQuotes"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
         <activity
             android:name=".JahannamQuotes"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
         <activity
             android:name=".JannahQuotesPage"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
         <activity
             android:name=".SelectionPage"
             android:exported="false"
             android:launchMode="singleTask"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" /> <!-- TURNS ACTION BAR OFF -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"> <!-- TURNS ACTION BAR OFF -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

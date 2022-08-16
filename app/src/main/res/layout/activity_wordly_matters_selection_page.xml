@@ -40,59 +40,16 @@
         app:layout_constraintVertical_bias="0.096" />
 
     <Button
-        android:id="@+id/dunyaBtn"
+        android:id="@+id/deathBtn"
         android:layout_width="122dp"
         android:layout_height="48dp"
-        android:text="TEMPORARY DUNYA"
-        android:textColor="#000000"
-        android:textSize="11sp"
+        android:text="death"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56" />
-
-    <Button
-        android:id="@+id/hardshipBtn"
-        android:layout_width="122dp"
-        android:layout_height="48dp"
-        android:text="hardships"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.641" />
-
-    <Button
-        android:id="@+id/marriageBtn"
-        android:layout_width="122dp"
-        android:layout_height="48dp"
-        android:text="marriage"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.721" />
-
-    <Button
-        android:id="@+id/zakatBtn"
-        android:layout_width="122dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="157dp"
-        android:layout_marginEnd="158dp"
-        android:text="Zakat"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.399"
-        app:rippleColor="#4C4B4B" />
+        app:layout_constraintVertical_bias="0.83" />
 
     <Button
         android:id="@+id/salahBtn"
@@ -106,8 +63,89 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.319"
+        app:layout_constraintVertical_bias="0.265"
         app:rippleColor="#4C4B4B" />
+
+    <Button
+        android:id="@+id/hardshipBtn"
+        android:layout_width="122dp"
+        android:layout_height="48dp"
+        android:text="hardships"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587" />
+
+    <Button
+        android:id="@+id/marriageBtn"
+        android:layout_width="122dp"
+        android:layout_height="48dp"
+        android:text="marriage"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.667" />
+
+    <Button
+        android:id="@+id/zakatBtn"
+        android:layout_width="122dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginEnd="158dp"
+        android:text="Zakat"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345"
+        app:rippleColor="#4C4B4B" />
+
+    <Button
+        android:id="@+id/disbelieverBtn"
+        android:layout_width="122dp"
+        android:layout_height="48dp"
+        android:text="disbelievers"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748" />
+
+    <Button
+        android:id="@+id/dunyaBtn"
+        android:layout_width="122dp"
+        android:layout_height="48dp"
+        android:text="TEMPORARY DUNYA"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.506" />
+
+    <Button
+        android:id="@+id/secretlettersBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="secret letters"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.913" />
 
     <Button
         android:id="@+id/wealthBtn"
@@ -120,6 +158,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.48" />
+        app:layout_constraintVertical_bias="0.426" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

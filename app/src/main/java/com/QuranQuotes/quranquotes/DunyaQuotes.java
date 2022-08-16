@@ -20,7 +20,7 @@ public class DunyaQuotes extends AppCompatActivity {
     // https://www.islamicselfhelp.com/2016/08/02/25-islamic-quotes-adversity/ - Hardships next topic
 
     private String DunyaQuotes [] = {
-            "And the worldly life is not but amusement and diversion; but the home of the hereafter is best for those who fear Allah , so will you not reason? (6:32)",
+            "And the worldly life is not but amusement and diversion; but the home of the hereafter is best for those who fear Allah, so will you not reason? (6:32)",
             "And what is the life of this world other than play and amusement? (3:185)",
             "And leave those who take this faith of Islam as mere play and amusement, and are deluded by their worldly life (6:70)",
             "Wealth and children are the adornment of this worldly life, but the everlasting good deeds are far better with your lord in reward and in hope (18:46)",

@@ -4,19 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_death_quotes.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_disbeliever_quotes.xml" value="0.22" />
         <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_dunya_quotes.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_hardship_quotes.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_hardship_quotes.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_hereafter_selection_page.xml" value="0.24109014675052412" />
         <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_jahannam_btn.xml" value="0.1743659420289855" />
-        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_jahannam_quotes.xml" value="0.22" />
+        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_jahannam_quotes.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_jannah_quotes_page.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_marriage_quotes.xml" value="0.22" />
+        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_marriage_quotes.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_quran_quotes_selection_page.xml" value="0.22" />
-        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_salah_quotes.xml" value="0.22" />
+        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_salah_quotes.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_secret_letter_quotes.xml" value="0.22" />
         <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_selection_page.xml" value="0.22" />
-        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_wealth_quotes.xml" value="0.1796875" />
-        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_wordly_matters_selection_page.xml" value="0.22" />
+        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_settings_page.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_settings_page2.xml" value="0.165625" />
+        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_test.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_wealth_quotes.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_wordly_matters_selection_page.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/layout/activity_zakat_quotes.xml" value="0.22" />
         <entry key="..\:/Users/Milan/QuranQuotes/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>

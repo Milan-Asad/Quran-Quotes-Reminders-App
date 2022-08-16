@@ -29,7 +29,7 @@
         android:layout_width="102dp"
         android:layout_height="43dp"
         android:background="@color/light_cream"
-        android:text="GENERATE"
+        android:text="zakat quotes"
         android:textColor="#000000"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"

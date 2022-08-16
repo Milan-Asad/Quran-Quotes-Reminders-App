@@ -7,11 +7,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+
+// https://www.al-islam.org/alphabetical-index-holy-quran/disbelievers
+//
+// https://www.youtube.com/watch?v=4JGvDUlfk7Y
 
 public class QuranQuotesSelectionPage extends AppCompatActivity {
 
     Button HereafterBtn;
     Button WordlyMattersBtn;
+    ImageView SettingsBtn;
 
 
     @Override
@@ -38,6 +44,14 @@ public class QuranQuotesSelectionPage extends AppCompatActivity {
                 openWordlyMattersSelectionPage();
             }
         });
+
+//        SettingsBtn = (ImageView) findViewById(R.id.cogwheel);
+//        SettingsBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                openSettingsPage();
+//            }
+//        });
     }
 
 
@@ -50,6 +64,11 @@ public class QuranQuotesSelectionPage extends AppCompatActivity {
 
     private void openWordlyMattersSelectionPage() {
         Intent intent = new Intent(this, WordlyMattersSelectionPage.class);
+        startActivity(intent);
+    }
+
+    private void openSettingsPage() {
+        Intent intent = new Intent(this, SettingsPage.class);
         startActivity(intent);
     }
 }
